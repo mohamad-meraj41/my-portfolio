@@ -13,7 +13,7 @@ const App = () => {
       <NavbarComponent />
       <Routes>
         <Route path="/" element={ <ProjectList /> } />
-        <Route path="/my-portfolio/dashboard" element={ <Dashboard /> } />
+        <Route path="/dashboard" element={ <Dashboard /> } />
         <Route path="/project-details/:id" element={<ProjectDetail />} />
       </Routes>
       <Footer />
